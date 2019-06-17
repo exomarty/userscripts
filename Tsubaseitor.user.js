@@ -10,7 +10,11 @@
 // @require      https://p.rst.im/p/cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js
 
 // ==/UserScript==
-function round5(x)
+
+(function() {
+    'use strict';
+    // Your code here...
+    function round5(x)
 {
     return Math.round(x/5)*5;
 }
@@ -22,12 +26,6 @@ $("table th").css({"background-color": "#241c1c", "olor": "white"});
 $("table td").css({"background-color": "#241c1c", "color": "white"});
 $("table").css({"background-color": "#241c1c", "color": "white"});
 }
-
-
-(function() {
-    'use strict';
-    // Your code here...
-
     var $ = window.jQuery;
 
    /* $('.breadcrumb').after("<button type='button' class='btn btn-primary' id='dark'>Dark</button>");
