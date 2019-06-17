@@ -7,7 +7,9 @@
 // @match        https://tsubasa.im/global/es/player/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
-// @require      https://p.rst.im/p/cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js
+// @require      https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/jquery.dataTables.min.js
+/*https://p.rst.im/p/cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js*/
+
 
 // ==/UserScript==
 
